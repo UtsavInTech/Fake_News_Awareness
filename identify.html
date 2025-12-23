@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Identify Fake News</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page page-identify" data-theme="identify">
+
+  <!-- HEADER -->
+  <header class="site-header" data-aos="fade-down">
+    <div class="brand">
+      <div class="logo-animated">
+        <span class="logo-text">FN</span>
+        <div class="logo-glow"></div>
+      </div>
+      <div class="brand-text">
+        <h1>Spot & Verify</h1>
+        <p class="tag">Identify Fake News</p>
+      </div>
+    </div>
+
+    <!-- 🌍 Language Selector -->
+    <div id="google_translate_element" class="language-selector"></div>
+
+    <nav class="top-nav" aria-label="Main Navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="identify.html" class="active">Identify</a>
+      <a href="factcheck.html">Fact Check</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="content panel-grid" data-aos="fade-up">
+    <article data-aos="fade-up" data-aos-delay="80">
+      <h2>How to Stop the Spread & Identify Fake News</h2>
+      <p class="lead">Practical steps for users and community volunteers to reduce the spread of false information.</p>
+
+      <div class="steps">
+        <div class="step" data-aos="fade-right" data-aos-delay="120">
+          <h4>1. Pause before sharing</h4>
+          <p>If a post produces a strong emotional reaction, don’t share immediately. Take a moment.</p>
+        </div>
+        <div class="step" data-aos="fade-right" data-aos-delay="140">
+          <h4>2. Check the source</h4>
+          <p>Look for the original publisher. Official sites and reputable newsrooms are more reliable.</p>
+        </div>
+        <div class="step" data-aos="fade-right" data-aos-delay="160">
+          <h4>3. Cross-verify</h4>
+          <p>Search the claim on multiple trusted outlets and fact-checkers before believing it.</p>
+        </div>
+        <div class="step" data-aos="fade-right" data-aos-delay="180">
+          <h4>4. Inspect media</h4>
+          <p>Use reverse image search for photos and tools like InVID for video verification.</p>
+        </div>
+        <div class="step" data-aos="fade-right" data-aos-delay="200">
+          <h4>5. Educate gently</h4>
+          <p>When correcting others, use facts and sources — avoid shaming and escalate when necessary.</p>
+        </div>
+      </div>
+    </article>
+
+    <aside class="callout" data-aos="fade-left" data-aos-delay="220">
+      <h3>Quick Checklist</h3>
+      <ol>
+        <li>Who posted this? Is the source known?</li>
+        <li>Is supporting evidence present?</li>
+        <li>Does the headline match the article content?</li>
+        <li>Could this be satire or a manipulated clip?</li>
+      </ol>
+
+      <h4>Tools</h4>
+      <ul>
+        <li>Google Reverse Image Search / TinEye</li>
+        <li>Wayback Machine (archive.org)</li>
+        <li>Fact-check sites (PIB, Snopes, Boom, Factly)</li>
+      </ul>
+    </aside>
+
+    <nav class="slide-nav">
+      <a class="prev" href="about.html">← Prev</a>
+      <a class="next" href="factcheck.html">Next →</a>
+    </nav>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">© 2025 Spot & Verify</footer>
+
+  <!-- 🌐 Google Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,bn,ta,te,ml,mr,gu,pa,kn',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init({ duration: 900, once: true }); </script>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

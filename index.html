@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spot & Verify — Home</title>
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page page-home" data-theme="home">
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header" data-aos="fade-down">
+    <div class="brand">
+      <!-- 🌐 Animated Logo -->
+      <div class="logo-animated">
+        <span class="logo-text">FN</span>
+        <div class="logo-glow"></div>
+      </div>
+      <div class="brand-text">
+        <h1>Spot & Verify</h1>
+        <p class="tag">Fake News Awareness — Community Connect</p>
+      </div>
+    </div>
+
+    <!-- 🌍 Language Selector -->
+    <div id="google_translate_element" class="language-selector"></div>
+
+    <nav class="top-nav" aria-label="Main Navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="identify.html">Identify</a>
+      <a href="factcheck.html">Fact Check</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main">
+    <section class="hero panel" data-aos="fade-up">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h2>Stop the Spread of Misinformation</h2>
+          <p class="lead">Think before you share. Learn practical, community-centered ways to identify fake news and protect communal harmony.</p>
+
+          <div class="hero-ctas">
+            <a href="about.html" class="btn primary">Learn More</a>
+            <a href="identify.html" class="btn outline">How to Identify</a>
+          </div>
+
+          <div class="quick-stats" aria-hidden="true">
+            <div><strong>Workshops</strong><span>25+</span></div>
+            <div><strong>Volunteers</strong><span>120+</span></div>
+            <div><strong>Posters Distributed</strong><span>1,500+</span></div>
+          </div>
+        </div>
+
+        <div class="hero-media" data-aos="zoom-in" data-aos-delay="120">
+          <img src="images/image1.png" alt="Community workshop" />
+        </div>
+      </div>
+    </section>
+
+    <section class="content panel" data-aos="fade-up" data-aos-delay="80">
+      <h3>How we help communities</h3>
+      <p class="lead">We focus on local trust-building and practical skills so villagers, students, and community leaders can stop false stories from becoming crises.</p>
+
+      <div class="cards-grid">
+        <article class="card" data-aos="fade-up" data-aos-delay="120">
+          <h4>Workshops in Schools</h4>
+          <p>Hands-on sessions for students and teachers: spotting manipulated media, checking sources, and critical thinking exercises.</p>
+        </article>
+
+        <article class="card" data-aos="fade-up" data-aos-delay="160">
+          <h4>Verification Booths</h4>
+          <p>Booths at markets and public gatherings where people can bring suspicious messages to get quick verification and guidance.</p>
+        </article>
+
+        <article class="card" data-aos="fade-up" data-aos-delay="200">
+          <h4>Volunteer Verification Teams</h4>
+          <p>Local volunteers trained to triage rumours, contact officials, and publish verified updates to community boards.</p>
+        </article>
+      </div>
+
+      <div class="cta-row" data-aos="fade-up" data-aos-delay="240">
+        <div class="cta-text">
+          <strong>Join the Movement</strong>
+          <p>Sign up to volunteer at events, or help run verification drives in your area.</p>
+        </div>
+        <div>
+          <a href="contact.html" class="btn primary">Volunteer</a>
+        </div>
+      </div>
+    </section>
+
+    <nav class="slide-nav" aria-label="Slide Navigation">
+      <a class="prev" href="contact.html" title="Previous (wrap)">← Prev</a>
+      <a class="next" href="about.html" title="Next">Next →</a>
+    </nav>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div>© 2025 Spot & Verify — Built for Community Connect</div>
+    <div class="footer-links">
+      <a href="factcheck.html">Fact Check Tools</a>
+      <a href="community.html">Our Activities</a>
+    </div>
+  </footer>
+
+  <!-- 🌐 Google Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,bn,ta,te,ml,mr,gu,pa,kn',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init({ duration: 900, once: true }); </script>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

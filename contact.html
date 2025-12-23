@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact & Volunteer — Spot & Verify</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page page-contact" data-theme="contact">
+
+  <!-- HEADER -->
+  <header class="site-header" data-aos="fade-down">
+    <div class="brand">
+      <div class="logo-animated">
+        <span class="logo-text">FN</span>
+        <div class="logo-glow"></div>
+      </div>
+      <div class="brand-text">
+        <h1>Spot & Verify</h1>
+        <p class="tag">Get Involved</p>
+      </div>
+    </div>
+
+    <!-- 🌍 Language Selector -->
+    <div id="google_translate_element" class="language-selector"></div>
+
+    <nav class="top-nav" aria-label="Main Navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="identify.html">Identify</a>
+      <a href="factcheck.html">Fact Check</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="content panel" data-aos="fade-up">
+    <h2>Join our Community Connect Program</h2>
+    <p class="lead">Volunteer to help run workshops, verification drives, and peace initiatives.</p>
+
+    <form id="volunteer-form" class="form" autocomplete="off" data-aos="fade-up" data-aos-delay="100">
+      <div class="form-row"><label>Name <input name="name" required /></label></div>
+      <div class="form-row"><label>Email <input type="email" name="email" required /></label></div>
+      <div class="form-row"><label>Phone <input name="phone" /></label></div>
+      <div class="form-row"><label>Area / Village <input name="area" /></label></div>
+      <div class="form-row"><label>How can you help? <textarea name="help" rows="4"></textarea></label></div>
+      <div class="form-row actions">
+        <button type="submit" class="btn primary">Sign Up to Volunteer</button>
+        <button type="button" id="demo-send" class="btn outline">Send Demo Message</button>
+      </div>
+    </form>
+
+    <section class="contact-options" data-aos="fade-up" data-aos-delay="180">
+      <h3>Contact</h3>
+      <p>If you have urgent information about a harmful rumour, call local authorities or email <a href="mailto:verify@community.org">verify@community.org</a></p>
+
+      <h3>Resources for Organizers</h3>
+      <ul>
+        <li>Printable posters (see Fact Check page)</li>
+        <li>Workshop slide deck (available on request)</li>
+      </ul>
+    </section>
+
+    <nav class="slide-nav">
+      <a class="prev" href="community.html">← Prev</a>
+      <a class="next" href="index.html">Next →</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">© 2025 Spot & Verify — Community Connect</footer>
+
+  <!-- 🌍 Google Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,bn,ta,te,ml,mr,gu,pa,kn',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init({ duration: 900, once: true }); </script>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

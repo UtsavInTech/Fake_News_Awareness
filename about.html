@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Spot & Verify</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page page-about" data-theme="about">
+
+  <!-- HEADER -->
+  <header class="site-header" data-aos="fade-down">
+    <div class="brand">
+      <div class="logo-animated">
+        <span class="logo-text">FN</span>
+        <div class="logo-glow"></div>
+      </div>
+      <div class="brand-text">
+        <h1>Spot & Verify</h1>
+        <p class="tag">What We Do</p>
+      </div>
+    </div>
+
+    <!-- 🌍 Language Selector -->
+    <div id="google_translate_element" class="language-selector"></div>
+
+    <nav class="top-nav" aria-label="Main Navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="identify.html">Identify</a>
+      <a href="factcheck.html">Fact Check</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="content panel" data-aos="fade-up">
+    <h2>About Fake News & Our Mission</h2>
+    <p class="lead">
+      Fake news is false or misleading information presented as news. Our mission is to equip communities with tools and skills to identify misinformation and preserve communal harmony.
+    </p>
+
+    <section data-aos="fade-up" data-aos-delay="100">
+      <h3>Types of Fake News</h3>
+      <ul>
+        <li><strong>Fabricated content:</strong> Completely false material created to deceive.</li>
+        <li><strong>Misleading content:</strong> True facts presented out of context.</li>
+        <li><strong>Imposter content:</strong> Fake pages or profiles pretending to be legitimate sources.</li>
+        <li><strong>Manipulated media:</strong> Images/videos altered to change meaning.</li>
+      </ul>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="160">
+      <h3>Why It Spreads</h3>
+      <ol>
+        <li>Emotionally charged headlines encourage immediate sharing.</li>
+        <li>Algorithms amplify sensational content.</li>
+        <li>Lack of digital literacy in many local communities.</li>
+        <li>Echo chambers and confirmation bias reinforce false beliefs.</li>
+      </ol>
+    </section>
+
+    <nav class="slide-nav">
+      <a class="prev" href="index.html">← Prev</a>
+      <a class="next" href="identify.html">Next →</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">© 2025 Spot & Verify — Community Connect</footer>
+
+  <!-- 🌍 Google Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,bn,ta,te,ml,mr,gu,pa,kn',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init({ duration: 900, once: true }); </script>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
